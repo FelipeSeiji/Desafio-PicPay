@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 @Entity(name = "transactions")
 @Table(name = "transactions")
 @Data
-public class transaction {
+public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
