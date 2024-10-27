@@ -1,6 +1,5 @@
 package com.picpaysimplificado.domain.transaction;
 
-
 import java.math.BigDecimal;
 
 import com.picpaysimplificado.domain.user.User;
