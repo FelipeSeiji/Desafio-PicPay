@@ -1,4 +1,4 @@
-package com.picpaysimplificado.service;
+package com.picpaysimplificado.picpaysimplificado.service;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -10,10 +10,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.picpaysimplificado.domain.DTO.TransactionDTO;
-import com.picpaysimplificado.domain.transaction.Transaction;
-import com.picpaysimplificado.domain.user.User;
-import com.picpaysimplificado.repositories.TransactionRepository;
+import com.picpaysimplificado.picpaysimplificado.DTO.TransactionDTO;
+import com.picpaysimplificado.picpaysimplificado.domain.transaction.Transaction;
+import com.picpaysimplificado.picpaysimplificado.domain.user.User;
+import com.picpaysimplificado.picpaysimplificado.repositories.TransactionRepository;
 
 @Service
 public class TransactionService {

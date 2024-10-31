@@ -1,4 +1,4 @@
-package com.picpaysimplificado.domain.DTO;
+package com.picpaysimplificado.picpaysimplificado.DTO;
 
 import java.math.BigDecimal;
 

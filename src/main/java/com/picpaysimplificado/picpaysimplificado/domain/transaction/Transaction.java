@@ -1,8 +1,6 @@
-package com.picpaysimplificado.domain.transaction;
+package com.picpaysimplificado.picpaysimplificado.domain.transaction;
 
 import java.math.BigDecimal;
-
-import com.picpaysimplificado.domain.user.User;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,6 +12,8 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+
+import com.picpaysimplificado.picpaysimplificado.domain.user.User;
 
 @Entity(name = "transactions")
 @Table(name = "transactions")
